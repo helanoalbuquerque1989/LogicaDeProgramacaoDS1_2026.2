@@ -1,2 +1,7 @@
 print("Helano Albuquerque")
 print("Olá Mundo")
+nome = input("qual seu nome")
+dia = input("em que dia voce nasceu")
+mes = input("em que mes voce nasceu")
+ano = input("em que ano voce nasceu")
+print(f"seu nome e {nome} seu dia e {dia} seu mes e {mes} seu ano e {ano}")
