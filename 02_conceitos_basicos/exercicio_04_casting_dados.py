@@ -10,3 +10,7 @@ Imprima a idade calculada com uma mensagem personalizada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+ano = str(input("digite seu ano de nascimento"))
+idade = int(ano)
+ano_final = 2026- idade
+print("sua idade ate o final de 2026 é", ano_final)

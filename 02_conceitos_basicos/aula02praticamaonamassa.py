@@ -5,4 +5,6 @@
 # 4. Imprima formatado usando f-string
 valor_conta = float(input("digite o valor da conta"))
 numero_pessoas = int(input("qual numero de pessoas"))
-valor_final = int
+valor_final = int(input("qual o valor total da compra"))
+
+print(f"o que cada um vai pagar:{valor_final :f:.2}")
