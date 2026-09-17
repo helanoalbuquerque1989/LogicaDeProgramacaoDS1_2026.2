@@ -12,4 +12,8 @@ Calcule e exiba a média final ponderada utilizando apenas operadores aritmétic
 nota_1 = float(input("digite a nota 1"))
 nota_2 = float(input("digite a nota 2"))
 nota_3 = float(input("digite a nota 3"))
-valor1 = nota_1
+valor1 = nota_1 * 0.2
+valor2 = nota_2 * 0.3
+valor3 = nota_3 * 0.5
+soma = valor1 + valor2 + valor3 
+print(f"sua media é{soma:.2f}")
